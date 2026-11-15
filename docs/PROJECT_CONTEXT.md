@@ -36,7 +36,8 @@ The original text contains precise algorithm, notation and thresholds; these not
 - Working target ~30 slides (including cover/contents/references); it may be adjusted based on readability.
 - Prior prior-session direction: ~2 slides for cover+TOC, ~3 introduction, ~10 literature review and ~10 method; use rest for experiment plan, contribution, closing, references.
 - The **quality of communication** takes precedence over exact chapter quotas.
-- The entire presentation is in **Traditional Chinese (zh-TW)**, including cover, navigation, diagrams and page labels; standard technical acronyms are permitted. Traditional Chinese speaker notes are the default.\n- Do not place small source or resource strips at the bottom of slides. For citations, use readable contextual attribution, speaker notes, and a references slide (see `SLIDE_WRITING_RULES.md`).
+- The entire presentation is in **Traditional Chinese (zh-TW)**, including cover, navigation, diagrams and page labels; standard technical acronyms are permitted. Traditional Chinese speaker notes are the default.
+- Do not place small source or resource strips at the bottom of slides. For citations, use readable contextual attribution, speaker notes, and a references slide (see `SLIDE_WRITING_RULES.md`).
 
 ## Explicit non-goals
 - Not a complete post-experiment defense. Do not borrow the senior's actual experiment outcome pages.
