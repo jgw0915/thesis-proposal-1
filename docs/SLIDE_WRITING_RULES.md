@@ -21,7 +21,7 @@
 - 應驗證匯入 Canva 後的文字可編輯，並以渲染檢查溢出、裁切與可讀性。
 
 ## 4. 數學公式與 Canva 主簡報（2026-11-16 新增）
-- 需要正式數學排版的公式與下標，優先使用 Canva 的 **LaTeX Math 外掛**製作，並在私有公式清單保留 LaTeX 原始碼，確保可重製。
-- 不可以只輸入 Unicode 字元拼接數學式，卻稱為 LaTeX Math。若連接工具無法直接呼叫外掛，應清楚記錄待處理公式、頁碼與貼入語法，不得宣稱完成外掛生成。
+- **最終使用者會以 PowerPoint 發表。** 公式在 Canva 階段以清晰可讀的佔位符或可選的 LaTeX Math 外掛預覽，原始 LaTeX 必須記錄於私有 manifest，待使用者匯出並上傳 PPTX 後，再轉換成 PowerPoint 原生可編輯的 Office Math。
+- 不可將 Unicode 字元拼接、一般文字或 Canva 匯出圖片稱為「原生可編輯 PowerPoint 公式」。完成轉換後須檢查 OMML 和 PowerPoint 實際顯示。詳見 `docs/FINAL_POWERPOINT_EQUATIONS.md`。
 - 後續製作須持續加入同一份 Canva 主簡報，**不得每批新建獨立正式簡報**；為技術性匯入而建立的中介設計不視為正式主專案。
 - 合併完成須確認頁數、順序與使用者手動調整皆被保留。詳見 `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md`。
