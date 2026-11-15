@@ -21,6 +21,9 @@
 | 2026-11-16 | Continue future slide batches in a single canonical Canva presentation (original first-batch design), preserving manual edits | user explicitly rejected one presentation per batch | adopted; slides 1–10 consolidated |
 | 2026-11-16 | Repair the appended batch order to 6,7,8,9,10 after Canva merged the five pages in reverse | ensure coherent slide sequence | verified |
 
+| 2026-11-16 | Final presentation will be an exported PowerPoint PPTX; defer formal LaTeX→native Office Math (OMML) conversion until exported PPTX is uploaded | keeps Canva workflow fast and ensures equations can be edited in desktop PowerPoint | adopted; replaces mandatory Canva LaTeX-app insertion |
+| 2026-11-16 | Maintain private LaTeX equation manifests during Canva production, and QA final OMML math independently after export | correct scientific notation and PowerPoint editability | adopted |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
