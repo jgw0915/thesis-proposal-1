@@ -59,3 +59,9 @@ Repository was public at setup. Do not push raw lab member slides, internal docu
 ## Arrow and connector correctness
 - All causal/data-flow arrows must match source→target semantics, with aligned endpoints and correct arrowhead direction. Never simulate PowerPoint arrows with separate line + chevron pieces; use a native connector with a real arrowhead.
 - Audit arrow-bearing existing slides before new production and render-check every new batch in both PPTX and Canva. Preserve user edits when replacing pages. Follow `docs/ARROW_CONNECTOR_QA.md`.
+
+## Thesis proposal ending (newer user decision, 2026-11-16)
+- **One slide only** for the experimental plan; **no standalone reference slide** in the proposal. Retain in-content scholarly attribution and traceable bibliography privately.
+- Finish the main presentation with **Thank You/Q&A**, followed by optional *technical Appendix* slides (never before Thank You).
+- Canonical ending is Slides 26 experiment, 27 contributions, 28 Thank You, 29–31 Appendix A–C. See `docs/PROPOSAL_ENDING_AND_APPENDIX.md`.
+- Update global footer label `參考文獻` to `附錄` once Canva edit is previewed and explicitly approved; never claim earlier manually edited pages were changed until verified.
