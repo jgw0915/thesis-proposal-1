@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16 (Canva 主簡報整合與公式規範更新)
+**Last updated:** 2026-11-16（第三批第 11–15 頁完成）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -38,17 +38,23 @@
 - **Limitation:** Canva MCP does not expose the Canva LaTeX Math app. The math replacement is therefore **NOT YET performed by the app** and existing user-created text/formulas have been preserved. Manual Canva app insertion remains required or access to a compatible app-operating environment.
 - No LaTeX formula objects were falsely marked as completed; no unpublished files, Canva edit links, or private thesis content were committed publicly.
 
+## Third batch completed — Slides 11–15
+- Added final PowerPoint equation policy in `docs/FINAL_POWERPOINT_EQUATIONS.md`: Canva is the design workspace; **native editable Office Math (OMML) conversion happens after the final Canva export is uploaded as PPTX**, not as mandatory Canva LaTeX app work.
+- Inspected latest Chapter 2 and methodology context, then authored native editable Traditional Chinese PPTX slides 11–15 about feature selection, RaSE, high-dimensional ensembles, prior PSO search and the research gap.
+- Generated PDF and PNG preview and checked no off-slide shapes; wrote Traditional Chinese speaker notes and private formula manifest (no formal display equations in this batch).
+- Imported the batch as a temporary intermediate Canva design, then appended **each page in correct sequence to the same canonical Canva master project**, preserving the user's adjustments.
+- Verified **15 total slides** and correct slide numbering/title order through the Canva connector.
+- Published public-safe batch QA in `docs/QA_BATCH03.md`. Private editable slide sources, speaker notes and Canva edit-access URL are not stored in public GitHub.
+
 ## Current boundaries
-- **Batches 01 and 02, slides 1–10, are built.** Slides 11–30 are not yet rebuilt; do not label the whole proposal finished.
+- **Batches 01–03, slides 1–15, are built in one Canva master.** Slides 16–30 are not yet rebuilt; do not label the whole proposal finished.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
 - This slide repository is **public**; the thesis source repository is **private**. The new PPTX/PDF, full slide content, detailed speech script and Canva edit URL are intentionally not pushed to GitHub.
 - The proposed methodology and experiments are not represented as completed empirical results.
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
-**Before drafting Batch 03:** finish Canva LaTeX Math insertion for slides 3, 4 and 9 using the locally maintained formula manifest; verify visual result in the existing canonical 10-slide master. Then build slides 11–15 and append them to this **same** master, checking page order.
-
-**Batch 03: Slides 11–15** (高維度特徵選取、隨機特徵子集合、高維度集成研究、PSO 相關研究、研究缺口). Read current authoritative Chapter 2 and preserve the approved Traditional Chinese 20 × 11.25 editorial layout. No bottom source strips; render and inspect five pages before the next status update.
+**Batch 04: Slides 16–20** — third-chapter overall method, document/DNA count features, leakage-safe fit/search/test splits, JMH initial scoring/weights, and candidate subspace sampling. Check the newest authoritative Chapter 3 and original draw.io method figure before generating; record *exact* LaTeX per formal equation for future **PowerPoint OMML conversion**. Append new slides to the single canonical Canva project, verifying ordering and preserving manual edits.
 
 ## Before uploading thesis-specific deliverables
 Change this repository to private, or explicitly authorize publication of each selected artifact. Re-check that no senior presentation, private source files, unpublished sensitive materials or access tokens enter a public commit.
