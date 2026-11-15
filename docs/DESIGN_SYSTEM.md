@@ -47,11 +47,11 @@ Use these as **starting specifications**; adjust with rendered preview based on 
 6. **Formula and explanation** — readable equation in content region, symbols in adjacent definitions or bottom strip.
 7. **Method animation-ready** — duplicate process layout across sequential slides; highlight one stage per slide rather than dense one-page graph.
 8. **Experiment plan** — clear dataset–method–measure table, no fabricated results.
-9. **Closing** — focused contribution, planned next steps and Q&A.
+9. **Closing** — one-slide planned experiment summary, expected contribution and standalone Thank You/Q&A.\n10. **Appendix** — optional technical backup slides placed **after** Thank You, including the fit/search/test split, constrained random MNB/PSO, and JMH/weight updates.
 
 ## Navigation
 - Header/upper-right: Traditional Chinese subsection breadcrumbs (for example, `特徵評分 · 子集合抽樣 · PSO 搜尋`).
-- Footer/global menu: `目錄  |  緒論  |  文獻探討  |  研究方法  |  實驗規劃  |  參考文獻`.
+- Footer/global menu (new standard): `目錄  |  緒論  |  文獻探討  |  研究方法  |  實驗規劃  |  附錄`. Existing Slides 1–25 still require Canva text correction with preview and approval.
 - Active section: wine-red underline/marker; inactive sections: muted tan/gray.
 - Lower-right: two-digit slide number (cover can be unnumbered; maintain consistent implementation).
 - Keep footer navigation above content and away from figures; allocate fixed safe zones.
