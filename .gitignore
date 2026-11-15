@@ -1,0 +1,14 @@
+# Temporary office locks and editor files
+~$*.pptx
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+!*.example
+# generated previews (commit reviewed exports deliberately if needed)
+exports/_preview/
+exports/_renders/
