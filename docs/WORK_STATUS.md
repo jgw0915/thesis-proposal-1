@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16 (Batch 02 已完成)
+**Last updated:** 2026-11-16 (Canva 主簡報整合與公式規範更新)
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -29,6 +29,15 @@
 - Kept the user's original 1–5-slide Canva project unchanged. This is a **separate Canva design**, not an automatic append.
 - Stored private deliverables and scripts outside this public GitHub repository. See `docs/QA_BATCH02.md`.
 
+## Canonical Canva master + mathematical notation update (2026-11-16)
+- Inspected the user's *latest manually adjusted* Batch 01 and Batch 02 Canva designs, 5 pages each.
+- Appended all five edited literature review slides to the original Batch 01 Canva presentation (design ID internally confirmed). Canva initially placed the imported pages in reverse order; four subsequent move-page operations corrected the actual page sequence.
+- Verified the canonical master now has **10 pages in order 01–10**, with Chapters 1 and 2 intact, and user edits preserved. The Batch 02 source project remains unchanged as backup.
+- Added `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md` and incorporated the **Canva LaTeX Math** and **single-deck** requirements across the writing/design/agent instructions.
+- Identified formal math elements on slides 3, 4, and 9; created a private, per-slide manifest with correct LaTeX source and placement guidance; slide 6 has only an optional simple vector symbol.
+- **Limitation:** Canva MCP does not expose the Canva LaTeX Math app. The math replacement is therefore **NOT YET performed by the app** and existing user-created text/formulas have been preserved. Manual Canva app insertion remains required or access to a compatible app-operating environment.
+- No LaTeX formula objects were falsely marked as completed; no unpublished files, Canva edit links, or private thesis content were committed publicly.
+
 ## Current boundaries
 - **Batches 01 and 02, slides 1–10, are built.** Slides 11–30 are not yet rebuilt; do not label the whole proposal finished.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
@@ -37,6 +46,8 @@
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
+**Before drafting Batch 03:** finish Canva LaTeX Math insertion for slides 3, 4 and 9 using the locally maintained formula manifest; verify visual result in the existing canonical 10-slide master. Then build slides 11–15 and append them to this **same** master, checking page order.
+
 **Batch 03: Slides 11–15** (高維度特徵選取、隨機特徵子集合、高維度集成研究、PSO 相關研究、研究缺口). Read current authoritative Chapter 2 and preserve the approved Traditional Chinese 20 × 11.25 editorial layout. No bottom source strips; render and inspect five pages before the next status update.
 
 ## Before uploading thesis-specific deliverables
