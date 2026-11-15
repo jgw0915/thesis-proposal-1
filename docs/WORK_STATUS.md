@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（第四批 16–20 頁完成；舊頁箭頭修正版待替換）
+**Last updated:** 2026-11-16（第五批 21–25 完成；箭頭轉檔測試有條件通過）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -55,17 +55,28 @@
 - Added slides 16–20, one at a time in order, to the **same canonical Canva master**. Verified **20 slides total** and the appended five titles in correct order through Canva tools. Prior slides and user's changes remained intact.
 - Detailed public-safe QA: `docs/QA_ARROW_AND_BATCH04.md`.
 
+## Batch 05 completed — slides 21–25
+- Authored and visually reviewed five source-grounded, editable Traditional Chinese Chapter 3 slides: candidate MNB, within-group selection, random constrained MNB parameters, PSO + majority vote, and sampling-weight stopping.
+- Fixed an initially floating branch-arrow diagram before importing; all **11 native arrowheads** have explicit source/target audit with no detached chevrons or off-slide shapes.
+- Verified in **local PPTX↔LibreOffice↔PPTX** round trip that all 11 new native arrowheads survived, while old line+chevron components on slides 6–8 remained separate. **This does not verify the actual Canva-to-PowerPoint export.**
+- Recorded exact private LaTeX formula sources and presenter notes for final OMML conversion.
+- Used a temporary intermediary to append pages individually to the **same canonical Canva master**; verified **25 pages** and correct slide-title order from Canva connector.
+- Prior user hand edits were not replaced; revised arrow pages 6/7/8/11/12/14/15 still await specific replacement approval.
+- Public-safe QA report: `docs/QA_BATCH05_ARROW_EXPORT.md`.
+
 ## Current boundaries
-- **Batches 01–04, slides 1–20, are built in the single canonical Canva master.** Slides 21–30 are not yet rebuilt; do not claim the whole proposal is finished. Old slides with arrows are still awaiting live Canva replacement review.
+- **Batches 01–05, slides 1–25, are built in the single canonical Canva master.** Slides 26–30 are not yet rebuilt; old arrow-bearing slides still need live Canva replacement review, and actual Canva→PowerPoint arrow fidelity is unverified without the exported PPTX.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
 - This slide repository is **public**; the thesis source repository is **private**. The new PPTX/PDF, full slide content, detailed speech script and Canva edit URL are intentionally not pushed to GitHub.
 - The proposed methodology and experiments are not represented as completed empirical results.
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
-**Batch 05: Slides 21–25** — candidate MNB estimation; subspace screening; random MNB parameters; PSO optimization and ensemble; feature-sampling weight updates, stopping and convergence. Verify latest Chapter 3 methods and diagram; preserve exact LaTeX for final OMML. Continue in one Canva master with confirmed arrow semantics.
+**Batch 06: Slides 26–30** — datasets and count-valued features, planned evaluation and baseline comparisons, planned analyses, expected contribution/future work, references/Q&A. Check Chapter 3 and correct bibliographic references. Do not fabricate experimental results. Continue in the single canonical Canva master.
 
-**Arrow follow-up:** Review proposed redesigned pages 6, 7, 8, 11, 12, 14 and 15 and obtain explicit approval for exact Canva page replacement. Then protect the original manually edited versions (backup), perform replacement, and confirm visual page numbers/order.
+**Export QA:** Once the user exports Canva to a real `.pptx`, inspect all arrow-bearing slides in that actual file, not just the local source; repair misaligned or reversed connectors using editable PowerPoint objects, and later convert LaTeX placeholders to native Office Math (OMML).
+
+**Arrow follow-up:** The proposed rebuilt pages 6, 7, 8, 11, 12, 14, 15 have not replaced manually adjusted Canva originals. Get explicit approval for the exact replacement scope before doing a destructive swap.
 
 ## Before uploading thesis-specific deliverables
 Change this repository to private, or explicitly authorize publication of each selected artifact. Re-check that no senior presentation, private source files, unpublished sensitive materials or access tokens enter a public commit.
