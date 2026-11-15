@@ -67,7 +67,7 @@ Use these as **starting specifications**; adjust with rendered preview based on 
 - When recreating, draw inspiration rather than copying copyrighted text/images from the original deck.
 
 ## Mathematical typography and canonical deck
-- Render genuine equation elements with Canva's **LaTeX Math** app where accessible. Keep corresponding LaTeX code in a non-public per-slide manifest so equation imagery can be regenerated consistently.
+- **Final output is a PowerPoint presentation.** Keep source LaTeX in a private per-slide manifest while authoring in Canva. After Canva→PPTX export, replace equations with native editable Office Math (OMML) objects and validate; using Canva LaTeX Math is optional for visual preview.
 - Do not treat typed Unicode subscripts as a substitute for professionally typeset formulae; preserve valid equation meaning and the latest thesis indices and normalization constraints.
 - Maintain a **single, editable Canva master deck**, and add future batches to that same project. Check each merged page's actual logical order.
-- Where Canva MCP cannot invoke the app, leave the user's layout intact and document the precise LaTeX input and plugin-pending status. See `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md`.
+- Where Canva API cannot invoke the app, retain readable placeholder text and document the precise LaTeX input and PowerPoint conversion-pending status. See `docs/FINAL_POWERPOINT_EQUATIONS.md`.
