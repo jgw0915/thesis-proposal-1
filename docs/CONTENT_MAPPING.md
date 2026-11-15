@@ -1,4 +1,4 @@
-# Slide-to-thesis content mapping
+# Slide-to-thesis content mapping\n\n**Slide language: Traditional Chinese (zh-TW).** No small bottom source/resource strips; use readable in-content attribution for specific papers, and notes/end references for complete citations. See `docs/SLIDE_WRITING_RULES.md`.
 
 This file exists to prevent slides from drifting away from the latest thesis.
 
