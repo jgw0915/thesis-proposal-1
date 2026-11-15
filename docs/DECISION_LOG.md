@@ -24,6 +24,9 @@
 | 2026-11-16 | Final presentation will be an exported PowerPoint PPTX; defer formal LaTeX→native Office Math (OMML) conversion until exported PPTX is uploaded | keeps Canva workflow fast and ensures equations can be edited in desktop PowerPoint | adopted; replaces mandatory Canva LaTeX-app insertion |
 | 2026-11-16 | Maintain private LaTeX equation manifests during Canva production, and QA final OMML math independently after export | correct scientific notation and PowerPoint editability | adopted |
 
+| 2026-11-16 | Keep Batch 03 as native-editable Traditional Chinese literature-review pages and append individually to the canonical Canva project | preserve user changes, avoid reversed group ordering | adopted; verified 15 pages |
+| 2026-11-16 | Plan native Office Math conversion only on the final Canva-exported PPTX; keep mathematical source manifests during slide authoring | final presentation is PowerPoint and needs editable equations | adopted; pending final export |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
