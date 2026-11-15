@@ -16,6 +16,11 @@
 
 | 2026-11-16 | Use Traditional Chinese for every slide-facing label; English permitted for standard research abbreviations only | explicit user correction after inspecting Canva deck | adopted (overrides original English plan) |\n| 2026-11-16 | Remove irrelevant miniature bottom resource/source strings; preserve appropriate contextual scholarly citation and references | user identified unnecessary source strips as distracting | adopted |\n| 2026-11-16 | Create a new Chinese Canva batch rather than overwrite user's manually adjusted original; preserve adjusted five-section contents format | protect user edits during reconstruction | adopted |\n\n| 2026-11-16 | Produce literature review slides 6–10 as separate editable batch, retaining chapter subsection numbering and citation placement rules | efficient QA without overwriting user's Canva adjustments | adopted; batch delivered |
 
+
+| 2026-11-16 | Use Canva's LaTeX Math app for formal equations and preserve original TeX inputs; do not claim app usage if tool access is missing | user requested professional notation rather than Unicode-only equations | adopted; plugin-insertion pending |
+| 2026-11-16 | Continue future slide batches in a single canonical Canva presentation (original first-batch design), preserving manual edits | user explicitly rejected one presentation per batch | adopted; slides 1–10 consolidated |
+| 2026-11-16 | Repair the appended batch order to 6,7,8,9,10 after Canva merged the five pages in reverse | ensure coherent slide sequence | verified |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
