@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（第三批第 11–15 頁完成）
+**Last updated:** 2026-11-16（第四批 16–20 頁完成；舊頁箭頭修正版待替換）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -46,15 +46,26 @@
 - Verified **15 total slides** and correct slide numbering/title order through the Canva connector.
 - Published public-safe batch QA in `docs/QA_BATCH03.md`. Private editable slide sources, speaker notes and Canva edit-access URL are not stored in public GitHub.
 
+## Arrow QA and Batch 04 completed (2026-11-16)
+- Added `docs/ARROW_CONNECTOR_QA.md`: directed arrows must be real native connectors with correct source/target endpoints and no detached chevrons; both pre- and post-import direction must be checked.
+- Audited local authoring sources of Slides 1–15: arrow-bearing Slides **6, 7, 8, 11, 12, 14, 15**. Rebuilt all seven locally with native connectors and 28 actual end-arrowheads; rendered review contact sheet available in private conversation deliverables.
+- **Pending:** repaired old slides are **not yet swapped into the user's existing Canva master**; preserving manual edits and no connector-edit tool means exact page replacements must be approved after review. Do not claim the live old arrows are fixed.
+- Built editable Slides **16–20**, verified Chapter 3 and original flow diagram, and checked 25 native connector segments / 16 arrowheads, 0 off-slide shapes.
+- Produced local PDF/PNG preview, embedded Traditional Chinese speaker notes and private exact LaTeX source manifest for final PowerPoint Office Math conversion.
+- Added slides 16–20, one at a time in order, to the **same canonical Canva master**. Verified **20 slides total** and the appended five titles in correct order through Canva tools. Prior slides and user's changes remained intact.
+- Detailed public-safe QA: `docs/QA_ARROW_AND_BATCH04.md`.
+
 ## Current boundaries
-- **Batches 01–03, slides 1–15, are built in one Canva master.** Slides 16–30 are not yet rebuilt; do not label the whole proposal finished.
+- **Batches 01–04, slides 1–20, are built in the single canonical Canva master.** Slides 21–30 are not yet rebuilt; do not claim the whole proposal is finished. Old slides with arrows are still awaiting live Canva replacement review.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
 - This slide repository is **public**; the thesis source repository is **private**. The new PPTX/PDF, full slide content, detailed speech script and Canva edit URL are intentionally not pushed to GitHub.
 - The proposed methodology and experiments are not represented as completed empirical results.
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
-**Batch 04: Slides 16–20** — third-chapter overall method, document/DNA count features, leakage-safe fit/search/test splits, JMH initial scoring/weights, and candidate subspace sampling. Check the newest authoritative Chapter 3 and original draw.io method figure before generating; record *exact* LaTeX per formal equation for future **PowerPoint OMML conversion**. Append new slides to the single canonical Canva project, verifying ordering and preserving manual edits.
+**Batch 05: Slides 21–25** — candidate MNB estimation; subspace screening; random MNB parameters; PSO optimization and ensemble; feature-sampling weight updates, stopping and convergence. Verify latest Chapter 3 methods and diagram; preserve exact LaTeX for final OMML. Continue in one Canva master with confirmed arrow semantics.
+
+**Arrow follow-up:** Review proposed redesigned pages 6, 7, 8, 11, 12, 14 and 15 and obtain explicit approval for exact Canva page replacement. Then protect the original manually edited versions (backup), perform replacement, and confirm visual page numbers/order.
 
 ## Before uploading thesis-specific deliverables
 Change this repository to private, or explicitly authorize publication of each selected artifact. Re-check that no senior presentation, private source files, unpublished sensitive materials or access tokens enter a public commit.
