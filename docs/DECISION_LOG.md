@@ -36,6 +36,10 @@
 | 2026-11-16 | Deliver Slides 26–30 as editable planned-evaluation and conclusion/Q&A draft; append them to the existing master and preserve manual edits | user asked to complete next batch, full thesis results not yet available | adopted; all 30 drafts verified |
 | 2026-11-16 | Label dataset count thresholds as eligibility criteria, not measured dataset statistics; keep reference list selected and traceable to the thesis BibTeX | academic accuracy and no fabricated results | adopted |
 
+| 2026-11-16 | User-directed restructuring: exactly one experiment plan, no standalone references, dedicated Thank You followed by three useful appendices | proposal emphasis; technical backup remains available for questions | adopted, 31-page master verified |
+| 2026-11-16 | Create a separate backup of former Slides 26–30 before replacing the closing, and preserve Slides 1–25 | avoid losing user-edited work | adopted |
+| 2026-11-16 | Change navigation's final label from References to Appendix, pending previewed Canva edit approval for old Slides 1–25 | keep nav consistent without overwriting manually edited pages | new pages updated; old nav remains pending |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
