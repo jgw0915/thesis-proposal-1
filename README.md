@@ -1,6 +1,6 @@
 # Thesis Proposal Slides — NCKU IM
 
-A reproducible, AI-friendly workspace for developing the **master's thesis proposal presentation**.
+**Slide language: Traditional Chinese (zh-TW). No irrelevant miniature source/resource footnotes along slide bottoms.** See [writing rules](docs/SLIDE_WRITING_RULES.md).\n\nA reproducible, AI-friendly workspace for developing the **master's thesis proposal presentation**.
 
 - **Presentation repository:** https://github.com/jgw0915/thesis-proposal-1
 - **Authoritative thesis source:** https://github.com/jgw0915/Master-Thesis
