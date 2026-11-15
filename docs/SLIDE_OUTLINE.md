@@ -2,7 +2,7 @@
 
 **投影片全程使用繁體中文，技術縮寫可保留原文；不得在頁底放細小的來源文字列。** 詳見 `docs/SLIDE_WRITING_RULES.md`。
 
-**Working target: 30 slides.** Presentation quality and correctness trump slide-count targets. Slides 1–30 have editable drafts in one Canva master; layout/source/arrow/final PowerPoint QA remains pending. All displayed slide text must be Traditional Chinese. Section organization follows the user's requested first three thesis chapters with proposal-specific experiment plan rather than fabricated results.
+**Working target: ~31 slides including three optional appendices, with 28 slides in the main presentation.** Presentation quality and correctness trump slide-count targets. Slides 1–31 have editable drafts in one Canva master after user-directed ending restructure; layout/source/arrow/final PowerPoint QA remains pending. All displayed slide text must be Traditional Chinese. Section organization follows the user's requested first three thesis chapters with proposal-specific experiment plan rather than fabricated results.
 
 | # | Section | 投影片標題 | Main visual / message | Source |
 |---:|---|---|---|---|
@@ -31,15 +31,15 @@
 | 23 | Method | 隨機生成 MNB 參數 | valid class-conditional parameter vector, simplex constraints | Ch. 3 §3.4.1 |
 | 24 | Method | PSO 搜尋與集成建立 | PSO refinement in selected subspaces, one best model/group | Ch. 3 §3.4.2, §3.1 |
 | 25 | Method | 特徵抽樣權重更新 | iterative feedback, final-iteration ensemble according to current text | Ch. 3 §3.5 |
-| 26 | Experiments | 實驗資料集與特徵表示 | documents and DNA; >=500 samples and >=5000 features are selection thresholds, not confirmed dataset statistics | Ch. 3 §3.6; dataset inspection |
-| 27 | Experiments | 實驗評估程序與比較方法 | metrics, folds, Chi-square + Bagging–MNB and other planned baselines | Ch. 3 §3.6 |
-| 28 | Experiments | 預計分析與研究問題 | feature selection/random generation/PSO contributions; no results | Ch. 3 §3.6; plan |
-| 29 | Conclusion | 預期研究貢獻與後續工作 | hypotheses, intended contributions, limitations and future work | Ch. 1, Ch. 3 |
-| 30 | References / Q&A | 重要參考文獻與問題討論 | key citations + Q&A; split if readability demands | bib and source |
+| 26 | Experiments | 實驗規劃（僅一頁） | planned document/DNA count data, thresholds, identical splits/member count, Chi-square + Bagging–MNB, accuracy mean/std + time | Ch. 3 §3.6 |
+| 27 | Conclusion | 預期研究貢獻 | integration, iterative feature sampling, evaluation without claiming results | Ch. 1 objectives / Ch. 3 |
+| 28 | Thank You | 謝謝各位老師／敬請指教 | final slide of spoken presentation / Q&A | presentation framing |
+| 29 | Appendix A | 資料切分與使用範圍 | separate D_fit, D_search and held-out test; prevent leakage | Ch. 3 §3.2 |
+| 30 | Appendix B | 隨機 MNB 與 PSO 有效參數 | normalized probability constraints and PSO search roles | Ch. 3 §3.4 |\n| 31 | Appendix C | JMH 與特徵抽樣權重 | one-time JMH scoring, adaptive feature probabilities and convergence | Ch. 3 §3.3/§3.5 |
 
 ## Production notes
 - For slides 19, 23, 24, 25 use **verified exact equations** from current Chapter 3; do not invent notation.
-- For slides 26–28, label content as **實驗規劃／預計分析** until evidence-backed results exist.
+- Slide 26 is the **only** experimental-plan slide. Main presentation ends with Thank You on Slide 28. Slides 29–31 are backup-only appendices, not spoken by default.
 - Keep the senior's **header/footer/section navigation style**, not senior's GA/BIP/COMEP content.
-- If Q&A and references are overcrowded, expand to 31 slides by splitting references.
+- **No standalone reference page** in proposal; preserve appropriate scholarly attribution and source record in the thesis/speaker notes.
 - Keep private Traditional Chinese speaker-note drafts per batch (not in this public repository); final combined notes are prepared after user design review.
