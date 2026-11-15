@@ -1,0 +1,40 @@
+{
+  "name": "NCKU IM thesis proposal - senior inspired",
+  "reference": "Yizh_口試論文(1).pptx (private attachment, not committed)",
+  "canvas": {
+    "widthInches": 20,
+    "heightInches": 11.25,
+    "ratio": "16:9"
+  },
+  "colors": {
+    "background": "#F8F8F8",
+    "accent": "#A31F34",
+    "secondary": "#8C6E4A",
+    "ink": "#171717",
+    "muted": "#6F6F6F",
+    "rule": "#DFD9D2",
+    "white": "#FFFFFF"
+  },
+  "fonts": {
+    "title": "Cormorant Garamond",
+    "titleStyle": "Bold Italic",
+    "body": "Times New Roman",
+    "fallbackTitle": "Georgia Italic",
+    "fallbackBody": "Georgia"
+  },
+  "sizesPt": {
+    "titleMin": 52,
+    "titleMax": 64,
+    "bodyMin": 26,
+    "bodyMax": 32,
+    "navigation": 22,
+    "pageNumber": 28,
+    "citationMin": 17
+  },
+  "navigation": {
+    "topBreadcrumb": true,
+    "bottomSectionBar": true,
+    "pageNumberBottomRight": true
+  },
+  "editable": true
+}
