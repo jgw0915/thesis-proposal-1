@@ -11,7 +11,14 @@
 - Sparse off-white canvases, roomy margins, diagrams and equations with very little decorative chrome.
 - A number of source slides are inconsistent or crowded; **preserve visual identity but improve polish, grid alignment, legibility and content hierarchy**.
 
-## Audience language and source treatment (mandatory, 2026-11-16)\n- Slides **must be in Traditional Chinese**, not English. Keep recognized international abbreviations such as MNB, PSO, DNA, 8-mer and formula symbols.\n- Use Traditional-Chinese-friendly title font `Noto Serif CJK TC` (bold; do not force awkward pseudo-italics on Chinese glyphs); body and nav `Noto Sans CJK TC` if available, document fallback when needed.\n- Preserve the wine-red/off-white editorial design from the senior deck; the senior's English typography is a visual reference, not a copywriting rule.\n- **No miniature source/resource strips along the lower content edge.** Put useful in-context citations next to the relevant study or diagram, and full citations in notes/references. Bottom area is reserved for navigation/page number.\n- Follow `docs/SLIDE_WRITING_RULES.md` when there is a conflict with older specifications.\n\n## Proposed normalized tokens
+## Audience language and source treatment (mandatory, 2026-11-16)
+- Slides **must be in Traditional Chinese**, not English. Keep recognized international abbreviations such as MNB, PSO, DNA, 8-mer and formula symbols.
+- Use Traditional-Chinese-friendly title font `Noto Serif CJK TC` (bold; do not force awkward pseudo-italics on Chinese glyphs); body and nav `Noto Sans CJK TC` if available, document fallback when needed.
+- Preserve the wine-red/off-white editorial design from the senior deck; the senior's English typography is a visual reference, not a copywriting rule.
+- **No miniature source/resource strips along the lower content edge.** Put useful in-context citations next to the relevant study or diagram, and full citations in notes/references. Bottom area is reserved for navigation/page number.
+- Follow `docs/SLIDE_WRITING_RULES.md` when there is a conflict with older specifications.
+
+## Proposed normalized tokens
 | Token | Value | Usage |
 |---|---|---|
 | `canvas` | 20 x 11.25 in, 16:9 | all slides |
