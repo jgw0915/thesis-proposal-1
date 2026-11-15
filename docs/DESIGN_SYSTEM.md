@@ -71,3 +71,8 @@ Use these as **starting specifications**; adjust with rendered preview based on 
 - Do not treat typed Unicode subscripts as a substitute for professionally typeset formulae; preserve valid equation meaning and the latest thesis indices and normalization constraints.
 - Maintain a **single, editable Canva master deck**, and add future batches to that same project. Check each merged page's actual logical order.
 - Where Canva API cannot invoke the app, retain readable placeholder text and document the precise LaTeX input and PowerPoint conversion-pending status. See `docs/FINAL_POWERPOINT_EQUATIONS.md`.
+
+## Arrow and flow-diagram standard
+- Use a single native connector with real endpoint arrowheads per directed edge, not a line plus a detached chevron.
+- Arrow endpoints align with source/target card edges; use straight/orthogonal routing and consistent gaps. Never cross content or misrepresent fit/search/test or convergence.
+- Maintain an arrow source→target audit table and check rendered PPTX and Canva imports. See `docs/ARROW_CONNECTOR_QA.md`.
