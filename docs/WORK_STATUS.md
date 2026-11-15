@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（第五批 21–25 完成；箭頭轉檔測試有條件通過）
+**Last updated:** 2026-11-16（第六批 26–30 頁完成；30 頁草稿已齊）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -64,19 +64,30 @@
 - Prior user hand edits were not replaced; revised arrow pages 6/7/8/11/12/14/15 still await specific replacement approval.
 - Public-safe QA report: `docs/QA_BATCH05_ARROW_EXPORT.md`.
 
+## Batch 06 completed — slides 26–30 (draft stage)
+- Verified latest Chapter 3 §3.6, Chapter 1 objectives, and authoritative current thesis BibTeX records before preparing the experiment/conclusion pages.
+- Created five Traditional Chinese, native-editable slides: 26 data types and selection thresholds; 27 K-fold evaluation and Chi-square + Bagging–MNB baseline; 28 planned research questions; 29 expected contributions/future work; 30 selected verified references and Q&A.
+- Dataset requirements ≥500 samples / ≥5,000 features are expressly labeled as criteria, not confirmed dataset statistics; no empirical results have been fabricated.
+- Rendered PPTX to PDF/PNG and visually inspected. All five native line-arrowheads (3 on slide 27, 2 on slide 29) have aligned endpoints; zero off-slide shapes.
+- Embedded Traditional Chinese speaking notes and created the private native-equation review manifest; no full display math requires new OMML conversion in this batch.
+- Used only a temporary Canva import, then appended pages individually to the **single canonical master**, preserving all user edits to previous slides. Confirmed **30 pages** and ordered titles for slides 26–30 via the Canva connector.
+- QA details: `docs/QA_BATCH06.md`. Public repo holds no private PPTX, speaker script, thesis text, Canva access URL, or lab senior assets.
+
 ## Current boundaries
-- **Batches 01–05, slides 1–25, are built in the single canonical Canva master.** Slides 26–30 are not yet rebuilt; old arrow-bearing slides still need live Canva replacement review, and actual Canva→PowerPoint arrow fidelity is unverified without the exported PPTX.
+- **All six batches, slides 1–30, now exist as editable drafts in a single canonical Canva master.** This is NOT the final approved presentation. Old arrow-bearing slides still require live review; actual Canva→PowerPoint fidelity cannot be verified without the exported PPTX.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
 - This slide repository is **public**; the thesis source repository is **private**. The new PPTX/PDF, full slide content, detailed speech script and Canva edit URL are intentionally not pushed to GitHub.
 - The proposed methodology and experiments are not represented as completed empirical results.
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
-**Batch 06: Slides 26–30** — datasets and count-valued features, planned evaluation and baseline comparisons, planned analyses, expected contribution/future work, references/Q&A. Check Chapter 3 and correct bibliographic references. Do not fabricate experimental results. Continue in the single canonical Canva master.
+**Wait for specific user feedback on the existing Canva 30-slide draft**, then inspect and revise the named slides while preserving the rest of the manual edits. Keep one canonical Canva master.
 
-**Export QA:** Once the user exports Canva to a real `.pptx`, inspect all arrow-bearing slides in that actual file, not just the local source; repair misaligned or reversed connectors using editable PowerPoint objects, and later convert LaTeX placeholders to native Office Math (OMML).
+**Arrow follow-up:** Before replacing old manually edited arrow-bearing pages 6, 7, 8, 11, 12, 14 and 15, show a comparison and obtain approval of the exact swap. Their local connector repair decks are not yet live replacements.
 
-**Arrow follow-up:** The proposed rebuilt pages 6, 7, 8, 11, 12, 14, 15 have not replaced manually adjusted Canva originals. Get explicit approval for the exact replacement scope before doing a destructive swap.
+**PowerPoint finalization:** After the user exports the canonical Canva project as a real PPTX and uploads it, inspect actual arrow positions/directions, layout/font fidelity, and LaTeX math placeholders. Convert supported equations into verified native Office Math (OMML), leaving unsupported conversions documented. Save final presentation PPTX and PDF backup only after visual checks.
+
+**Scientific checks:** Confirm dataset identities and final experimental settings with advisor; do not treat proposed metrics or expected outcomes as completed results.
 
 ## Before uploading thesis-specific deliverables
 Change this repository to private, or explicitly authorize publication of each selected artifact. Re-check that no senior presentation, private source files, unpublished sensitive materials or access tokens enter a public commit.
