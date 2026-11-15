@@ -51,7 +51,7 @@ Read current sources → update outline/mapping → create/edit a small batch of
 Repository was public at setup. Do not push raw lab member slides, internal documents, private research data, access tokens, unpublished materials or proprietary assets. Use links/placeholder instructions in `assets/reference/`. Make repository private through GitHub settings before adding sensitive materials, subject to permissions.
 
 ## Canva equation and single-project requirements (2026-11-16)
-- For formal mathematical expressions and indices, use the Canva **LaTeX Math** app, preserving the exact LaTeX source text separately for regeneration. Never claim successful plugin insertion without verification.
-- Canva MCP does **not** currently expose a direct control to operate LaTeX Math. If it remains unavailable, supply precise code and placement instructions, leaving affected elements untouched until app-generated formulas can be inserted.
+- **The final delivery format is PowerPoint (.pptx).** Record precise LaTeX source and slide position during Canva authoring, then, after the user exports and uploads the final Canva PPTX, convert mathematical placeholders into native editable PowerPoint Office Math (OMML) and perform QA. The Canva LaTeX Math plugin is optional for preview, not required.
+- Do not describe images as editable PowerPoint equations; verify actual Office Math after conversion. Read `docs/FINAL_POWERPOINT_EQUATIONS.md`.
 - **Continue in one canonical Canva master presentation** rather than delivering unrelated per-batch projects. Import-and-merge intermediate pages if necessary, preserving existing user modifications, and confirm final page order because imported pages may be reversed.
 - Follow `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md` for all future batches.
