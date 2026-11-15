@@ -14,7 +14,7 @@
 | 2026-11-16 | Do not commit the thesis-derived slide content, speaker script, binary deck or edit URLs while this repo is public and Master-Thesis is private | avoid inadvertently disclosing unpublished/private thesis material | adopted |
 | 2026-11-16 | Flag disagreement between current manuscript and secondary editable flow diagram for advisor verification in future method batch | prevent silent invention or inconsistent final-ensemble rule | pending verification |
 
-## Pending confirmation (not blockers to drafting)
+| 2026-11-16 | Use Traditional Chinese for every slide-facing label; English permitted for standard research abbreviations only | explicit user correction after inspecting Canva deck | adopted (overrides original English plan) |\n| 2026-11-16 | Remove irrelevant miniature bottom resource/source strings; preserve appropriate contextual scholarly citation and references | user identified unnecessary source strips as distracting | adopted |\n| 2026-11-16 | Create a new Chinese Canva batch rather than overwrite user's manually adjusted original; preserve adjusted five-section contents format | protect user edits during reconstruction | adopted |\n\n## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
 - Change the presentation repository's visibility to private before committing unpublished slide content and speech notes.
