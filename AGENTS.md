@@ -55,3 +55,7 @@ Repository was public at setup. Do not push raw lab member slides, internal docu
 - Do not describe images as editable PowerPoint equations; verify actual Office Math after conversion. Read `docs/FINAL_POWERPOINT_EQUATIONS.md`.
 - **Continue in one canonical Canva master presentation** rather than delivering unrelated per-batch projects. Import-and-merge intermediate pages if necessary, preserving existing user modifications, and confirm final page order because imported pages may be reversed.
 - Follow `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md` for all future batches.
+
+## Arrow and connector correctness
+- All causal/data-flow arrows must match source→target semantics, with aligned endpoints and correct arrowhead direction. Never simulate PowerPoint arrows with separate line + chevron pieces; use a native connector with a real arrowhead.
+- Audit arrow-bearing existing slides before new production and render-check every new batch in both PPTX and Canva. Preserve user edits when replacing pages. Follow `docs/ARROW_CONNECTOR_QA.md`.
