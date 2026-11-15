@@ -2,7 +2,7 @@
 
 **投影片全程使用繁體中文，技術縮寫可保留原文；不得在頁底放細小的來源文字列。** 詳見 `docs/SLIDE_WRITING_RULES.md`。
 
-**Working target: 30 slides.** Presentation quality and correctness trump slide-count targets. Slides 1–10 now have editable first-batch drafts; slides 11 onward remain proposed. All displayed slide text must be Traditional Chinese. Section organization follows the user's requested first three thesis chapters with proposal-specific experiment plan rather than fabricated results.
+**Working target: 30 slides.** Presentation quality and correctness trump slide-count targets. Slides 1–30 have editable drafts in one Canva master; layout/source/arrow/final PowerPoint QA remains pending. All displayed slide text must be Traditional Chinese. Section organization follows the user's requested first three thesis chapters with proposal-specific experiment plan rather than fabricated results.
 
 | # | Section | 投影片標題 | Main visual / message | Source |
 |---:|---|---|---|---|
@@ -32,14 +32,14 @@
 | 24 | Method | PSO 搜尋與集成建立 | PSO refinement in selected subspaces, one best model/group | Ch. 3 §3.4.2, §3.1 |
 | 25 | Method | 特徵抽樣權重更新 | iterative feedback, final-iteration ensemble according to current text | Ch. 3 §3.5 |
 | 26 | Experiments | 實驗資料集與特徵表示 | documents and DNA; >=500 samples and >=5000 features are selection thresholds, not confirmed dataset statistics | Ch. 3 §3.6; dataset inspection |
-| 27 | Experiments | 實驗評估程序與比較基準 | metrics, folds, Chi-square + Bagging–MNB and other planned baselines | Ch. 3 §3.6 |
+| 27 | Experiments | 實驗評估程序與比較方法 | metrics, folds, Chi-square + Bagging–MNB and other planned baselines | Ch. 3 §3.6 |
 | 28 | Experiments | 預計分析與研究問題 | feature selection/random generation/PSO contributions; no results | Ch. 3 §3.6; plan |
-| 29 | Conclusion | 預期貢獻與後續工作 | hypotheses, intended contributions, limitations and future work | Ch. 1, Ch. 3 |
-| 30 | References / Q&A | 參考文獻與問題討論 | key citations + Q&A; split if readability demands | bib and source |
+| 29 | Conclusion | 預期研究貢獻與後續工作 | hypotheses, intended contributions, limitations and future work | Ch. 1, Ch. 3 |
+| 30 | References / Q&A | 重要參考文獻與問題討論 | key citations + Q&A; split if readability demands | bib and source |
 
 ## Production notes
 - For slides 19, 23, 24, 25 use **verified exact equations** from current Chapter 3; do not invent notation.
-- For slides 26–28, explicitly say `Experimental Design` or `Planned Evaluation` until evidence-backed results exist.
+- For slides 26–28, label content as **實驗規劃／預計分析** until evidence-backed results exist.
 - Keep the senior's **header/footer/section navigation style**, not senior's GA/BIP/COMEP content.
 - If Q&A and references are overcrowded, expand to 31 slides by splitting references.
-- Include speaker-note draft for all slides in `notes/SPEAKER_NOTES.md`.
+- Keep private Traditional Chinese speaker-note drafts per batch (not in this public repository); final combined notes are prepared after user design review.
