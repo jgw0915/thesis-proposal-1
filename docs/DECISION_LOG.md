@@ -27,6 +27,9 @@
 | 2026-11-16 | Keep Batch 03 as native-editable Traditional Chinese literature-review pages and append individually to the canonical Canva project | preserve user changes, avoid reversed group ordering | adopted; verified 15 pages |
 | 2026-11-16 | Plan native Office Math conversion only on the final Canva-exported PPTX; keep mathematical source manifests during slide authoring | final presentation is PowerPoint and needs editable equations | adopted; pending final export |
 
+| 2026-11-16 | Replace manually separated line+chevron arrow graphics with native arrowhead connectors; require source-target and Canva post-import QA | existing arrow alignment and direction were unreliable | adopted; seven local replacement pages prepared, live swap pending approval |
+| 2026-11-16 | Continue method Slides 16–20 in the existing canonical Canva presentation, one page per merge for reliable order | preserve users edits and prevent reversed insertion | adopted; 20-page master verified |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
