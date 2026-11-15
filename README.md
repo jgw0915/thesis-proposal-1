@@ -41,3 +41,6 @@ The *latest checked* `Master-Thesis` chapter files, thesis metadata, references 
 - Use Traditional Chinese terminology where appropriate; prefer **「分類方法」** in narrative slides.
 - Never upload the graduate senior's complete deck or other non-public material to a public repository without permission. This repository was **public** when initialized; change visibility manually in GitHub settings if sensitive assets must be stored.
 - Git stores files, but new ChatGPT conversations do not automatically read them. Ask the agent to load `AGENTS.md` and the source documents each time.
+
+## Canonical Canva workflow (from 2026-11-16)
+The thesis proposal has **one continuously edited Canva master presentation**. Use `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md` for the precise rules on app-generated LaTeX equations, preserving TeX sources, app access limitations, user edits, and verified merge order. Do not publish master edit-access URLs or unpublished thesis-derived slides in this public repository.
