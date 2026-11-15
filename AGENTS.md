@@ -8,12 +8,12 @@ These instructions apply to ChatGPT, Codex, and any editing agent.
 3. `docs/SOURCE_OF_TRUTH.md`
 4. `docs/DESIGN_SYSTEM.md`
 5. `docs/SLIDE_OUTLINE.md`
-6. `docs/DECISION_LOG.md`
+6. `docs/DECISION_LOG.md`\n7. `docs/SLIDE_WRITING_RULES.md`\n8. `docs/WORK_STATUS.md`
 
 ## Presentation mandate
 Create a visually polished, editable, academically rigorous ~28–30-slide **thesis proposal**, strongly inspired by the *visual language* of the lab senior's deck (NOT its experimental content). Use a clean 16:9 landscape canvas; choose exact 20 x 11.25 in to match the source deck if compatible. Warm off-white background #F8F8F8, wine red #A31F34, muted tan #8C6E4A, predominantly black typography. Use large italic serif slide titles, restrained navigation, consistent page numbers, and spacious diagram-led composition. See DESIGN_SYSTEM for specific rules.
 
-## Scientific correctness rules
+## Mandatory audience language and source placement\n- **ALL slide-facing text must be Traditional Chinese (zh-TW)**, including cover, titles, table of contents, diagrams, top breadcrumbs, footer navigation, and Q&A. Preserve standard technical acronyms (MNB/PSO/DNA/8-mer) as needed.\n- **Do not add small bottom source/resource text strips** (e.g., `Sources:`, thesis path, attribution captions not relevant to audience). Keep only the planned bottom navigation and slide number.\n- Put essential scholarly attribution at the relevant claim/figure in readable type; place full references in speaker notes or the references section. Do not confuse omission of distracting footnotes with omission of citations.\n- Preserve manual Canva edits by inspecting the current design and making an independent backup or version rather than overwriting without notice.\n- For full details, follow `docs/SLIDE_WRITING_RULES.md`; this explicit 2026-11-16 decision overrides older English-language goals.\n\n## Scientific correctness rules
 - Thesis primary source: https://github.com/jgw0915/Master-Thesis (read live content on each major edit, especially `Chapter/Third Chapter.tex`).
 - Thesis title: `frontmatter/thesis-info.tex`; do not override with guessed title.
 - This thesis is about **high-dimensional document/DNA data**, **count-valued features**, **MNB**, **feature-subspace construction and adaptive weighting**, **randomly generated MNB parameters**, **PSO search**, and **ensemble construction**.
