@@ -65,3 +65,9 @@ Use these as **starting specifications**; adjust with rendered preview based on 
 - Cite papers on the slide where discussed; references can also appear at end.
 - Ensure sufficient contrast; red/tan should not be sole carrier of meaning.
 - When recreating, draw inspiration rather than copying copyrighted text/images from the original deck.
+
+## Mathematical typography and canonical deck
+- Render genuine equation elements with Canva's **LaTeX Math** app where accessible. Keep corresponding LaTeX code in a non-public per-slide manifest so equation imagery can be regenerated consistently.
+- Do not treat typed Unicode subscripts as a substitute for professionally typeset formulae; preserve valid equation meaning and the latest thesis indices and normalization constraints.
+- Maintain a **single, editable Canva master deck**, and add future batches to that same project. Check each merged page's actual logical order.
+- Where Canva MCP cannot invoke the app, leave the user's layout intact and document the precise LaTeX input and plugin-pending status. See `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md`.
