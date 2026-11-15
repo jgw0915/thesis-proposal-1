@@ -25,3 +25,9 @@
 - 不可將 Unicode 字元拼接、一般文字或 Canva 匯出圖片稱為「原生可編輯 PowerPoint 公式」。完成轉換後須檢查 OMML 和 PowerPoint 實際顯示。詳見 `docs/FINAL_POWERPOINT_EQUATIONS.md`。
 - 後續製作須持續加入同一份 Canva 主簡報，**不得每批新建獨立正式簡報**；為技術性匯入而建立的中介設計不視為正式主專案。
 - 合併完成須確認頁數、順序與使用者手動調整皆被保留。詳見 `docs/CANVA_MATH_AND_MASTER_WORKFLOW.md`。
+
+## 5. Proposal 結尾與附錄（2026-11-16 新增）
+- 主講內容的實驗規劃只用**一頁**；尚未完成的成果不得寫成已獲得數據。
+- Proposal **不放獨立的 Reference 頁**；學術來源仍應在相關內容旁適度標示，並保留於論文與私人講稿。
+- 「謝謝各位老師／敬請指教」是主講最後一頁，數學與資料切分等 **Appendix 放在其後**。
+- 頁底最後一個導航項目由「參考文獻」改為「附錄」，修改既有 Canva 頁面需顯示預覽並取得使用者核准才能儲存。詳見 `docs/PROPOSAL_ENDING_AND_APPENDIX.md`。
