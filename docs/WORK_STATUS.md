@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（第六批 26–30 頁完成；30 頁草稿已齊）
+**Last updated:** 2026-11-16（一頁實驗規劃＋Thank You＋附錄 A–C 已重整）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -73,21 +73,28 @@
 - Used only a temporary Canva import, then appended pages individually to the **single canonical master**, preserving all user edits to previous slides. Confirmed **30 pages** and ordered titles for slides 26–30 via the Canva connector.
 - QA details: `docs/QA_BATCH06.md`. Public repo holds no private PPTX, speaker script, thesis text, Canva access URL, or lab senior assets.
 
+## Proposal ending restructure (2026-11-16)
+- User explicitly requested one experiment-plan slide, no dedicated references page, and a few useful technical appendices after Thank You.
+- Created a **five-page Canva backup of the old final Slides 26–30** before modifying the canonical master; preserved earlier Slides 1–25.
+- Replaced the old ending with **six editable pages**: 26 one-page experiment plan, 27 expected contributions, 28 Thank You/Q&A (end of main talk), 29 Appendix A fit/search/test, 30 Appendix B randomized MNB/PSO constraints, 31 Appendix C JMH/weights.
+- Locally rendered the six-page PPTX to PDF/PNG and inspected; 5 true arrowhead connectors, no off-slide elements, no fabricated results or standalone references.
+- Canva master verified to have **31 pages with exact revised title ordering**. The original 26–30 pages were removed from master after backup; this was an intentional user-directed structural change.
+- Preserved private equation TeX in working notes for final native PowerPoint conversion; no equation source or private slide file committed publicly.
+- **Open visual inconsistency:** earlier Slides 1–25 still show old footer label `參考文獻` although new Slides 26–31 use `附錄`. Requires a separate Canva editing transaction, preview and user approval before commit.
+- Added `docs/PROPOSAL_ENDING_AND_APPENDIX.md`; the old 30-slide outline with 3 experiment slides and one reference page is superseded.
+
 ## Current boundaries
-- **All six batches, slides 1–30, now exist as editable drafts in a single canonical Canva master.** This is NOT the final approved presentation. Old arrow-bearing slides still require live review; actual Canva→PowerPoint fidelity cannot be verified without the exported PPTX.
+- **The revised canonical Canva master has 31 editable draft slides (28 main + 3 appendix).** This is NOT the final approved presentation. Old arrow-bearing slides still require live review; actual Canva→PowerPoint fidelity cannot be verified without the exported PPTX.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
 - This slide repository is **public**; the thesis source repository is **private**. The new PPTX/PDF, full slide content, detailed speech script and Canva edit URL are intentionally not pushed to GitHub.
 - The proposed methodology and experiments are not represented as completed empirical results.
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
-**Wait for specific user feedback on the existing Canva 30-slide draft**, then inspect and revise the named slides while preserving the rest of the manual edits. Keep one canonical Canva master.
-
-**Arrow follow-up:** Before replacing old manually edited arrow-bearing pages 6, 7, 8, 11, 12, 14 and 15, show a comparison and obtain approval of the exact swap. Their local connector repair decks are not yet live replacements.
-
-**PowerPoint finalization:** After the user exports the canonical Canva project as a real PPTX and uploads it, inspect actual arrow positions/directions, layout/font fidelity, and LaTeX math placeholders. Convert supported equations into verified native Office Math (OMML), leaving unsupported conversions documented. Save final presentation PPTX and PDF backup only after visual checks.
-
-**Scientific checks:** Confirm dataset identities and final experimental settings with advisor; do not treat proposed metrics or expected outcomes as completed results.
+- Obtain user feedback on the revised conclusion and appendices; adjust only specified pages, preserving manual edits.
+- Change stale footer text `參考文獻` to `附錄` on Slides 1–25 in a previewed Canva transaction with explicit approval before saving.
+- Previously arrow-redesigned Slides 6, 7, 8, 11, 12, 14, 15 still need approved replacements or correction on final exported PPTX.
+- Once the user exports Canva to PPTX, verify real arrow geometry and layout; convert the approved formulas into native PowerPoint Office Math.
 
 ## Before uploading thesis-specific deliverables
 Change this repository to private, or explicitly authorize publication of each selected artifact. Re-check that no senior presentation, private source files, unpublished sensitive materials or access tokens enter a public commit.
