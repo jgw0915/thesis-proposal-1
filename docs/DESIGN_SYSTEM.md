@@ -11,7 +11,7 @@
 - Sparse off-white canvases, roomy margins, diagrams and equations with very little decorative chrome.
 - A number of source slides are inconsistent or crowded; **preserve visual identity but improve polish, grid alignment, legibility and content hierarchy**.
 
-## Proposed normalized tokens
+## Audience language and source treatment (mandatory, 2026-11-16)\n- Slides **must be in Traditional Chinese**, not English. Keep recognized international abbreviations such as MNB, PSO, DNA, 8-mer and formula symbols.\n- Use Traditional-Chinese-friendly title font `Noto Serif CJK TC` (bold; do not force awkward pseudo-italics on Chinese glyphs); body and nav `Noto Sans CJK TC` if available, document fallback when needed.\n- Preserve the wine-red/off-white editorial design from the senior deck; the senior's English typography is a visual reference, not a copywriting rule.\n- **No miniature source/resource strips along the lower content edge.** Put useful in-context citations next to the relevant study or diagram, and full citations in notes/references. Bottom area is reserved for navigation/page number.\n- Follow `docs/SLIDE_WRITING_RULES.md` when there is a conflict with older specifications.\n\n## Proposed normalized tokens
 | Token | Value | Usage |
 |---|---|---|
 | `canvas` | 20 x 11.25 in, 16:9 | all slides |
@@ -21,8 +21,8 @@
 | `secondary` | `#8C6E4A` | subheading/breadcrumb/divider |
 | `muted` | `#6F6F6F` | nonactive tab, citation |
 | `rule` | `#DFD9D2` | structural lines |
-| `titleFont` | `Cormorant Garamond` with bold italic | big titles |
-| `bodyFont` | `Times New Roman` | body / formula / navigation |
+| `titleFont` | `Noto Serif CJK TC` (bold) for Chinese; Cormorant Garamond italic for English only when appropriate | big titles |
+| `bodyFont` | `Noto Sans CJK TC` for Chinese; Times New Roman for Roman math if needed | body / formula / navigation |
 | `titleSizePt` | 52–64 pt | on original 20-inch canvas |
 | `bodySizePt` | 26–32 pt | on original 20-inch canvas |
 | `navSizePt` | ~22 pt | section labels |
@@ -43,8 +43,8 @@ Use these as **starting specifications**; adjust with rendered preview based on 
 9. **Closing** — focused contribution, planned next steps and Q&A.
 
 ## Navigation
-- Header/upper-right: current subsection breadcrumbs (for example, `Feature Scoring · Subspace Sampling · PSO Search`).
-- Footer/global menu: `Contents  |  Introduction  |  Literature Review  |  Method  |  Experimental Plan  |  References`.
+- Header/upper-right: Traditional Chinese subsection breadcrumbs (for example, `特徵評分 · 子集合抽樣 · PSO 搜尋`).
+- Footer/global menu: `目錄  |  緒論  |  文獻探討  |  研究方法  |  實驗規劃  |  參考文獻`.
 - Active section: wine-red underline/marker; inactive sections: muted tan/gray.
 - Lower-right: two-digit slide number (cover can be unnumbered; maintain consistent implementation).
 - Keep footer navigation above content and away from figures; allocate fixed safe zones.
