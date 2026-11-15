@@ -30,6 +30,9 @@
 | 2026-11-16 | Replace manually separated line+chevron arrow graphics with native arrowhead connectors; require source-target and Canva post-import QA | existing arrow alignment and direction were unreliable | adopted; seven local replacement pages prepared, live swap pending approval |
 | 2026-11-16 | Continue method Slides 16–20 in the existing canonical Canva presentation, one page per merge for reliable order | preserve users edits and prevent reversed insertion | adopted; 20-page master verified |
 
+| 2026-11-16 | Do not assume Canva-to-PowerPoint conversion repairs faulty arrow geometry; require testing the actual Canva-exported PPTX | round-trip of original chevrons preserved broken component structure, whereas native connectors retained arrowheads | adopted; actual export QA pending |
+| 2026-11-16 | Append Batch 05 editable slides 21–25 to same master; remove floating branch arrows at design stage | rigorous method flow and connector alignment | adopted; canonical 25-page master verified |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
