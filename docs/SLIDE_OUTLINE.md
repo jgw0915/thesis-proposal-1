@@ -1,8 +1,8 @@
-# Proposal slide outline — v0.1
+# 論文計畫口試投影片大綱 — v0.2（繁體中文）
 
-**Working target: 30 slides.** Presentation quality and correctness trump slide-count targets. All slide titles/content are **proposed**, not yet finished presentation pages. Section organization follows the user's requested first three thesis chapters with proposal-specific experiment plan rather than fabricated results.
+**投影片全程使用繁體中文，技術縮寫可保留原文；不得在頁底放細小的來源文字列。** 詳見 `docs/SLIDE_WRITING_RULES.md`。\n\n**Working target: 30 slides.** Presentation quality and correctness trump slide-count targets. All slide titles/content are **proposed**, not yet finished presentation pages. Section organization follows the user's requested first three thesis chapters with proposal-specific experiment plan rather than fabricated results.
 
-| # | Section | Proposed title | Main visual / message | Source |
+| # | Section | undefined | Main visual / message | Source |
 |---:|---|---|---|---|
 | 1 | Cover | A Randomly Generated Multinomial Naive Bayes Ensemble Method for High-Dimensional Data Classification | Senior-inspired title page with metadata | thesis-info.tex |
 | 2 | TOC | Presentation Outline | Introduction → Literature Review → Proposed Method → Experimental Plan → Conclusion | deck structure |
