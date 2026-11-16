@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（使用者選定新版 UI/UX，第 1–5 頁已在 Canva 以可編輯物件替換）
+**Last updated:** 2026-11-16（以使用者選定的兩張投影片圖像，新建 10 頁可編輯 Canva 版本）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -102,6 +102,16 @@
 - Verified Canva's editable rich-text extraction on all replaced slides and that original Slide 6 (ensemble-learning overview) remained in position. Canonical Canva master **currently reports 30 pages**—preserve this current state; earlier progress logs cited 31, likely due independent user changes.
 - **Do not claim Slides 6–30 have the new visual style yet.** They retain their previous visuals and should be reviewed only when asked.
 - New public-safe style specification: `docs/APPROVED_WINE_CREAM_UI_V2.md`. No private thesis text, slide binary, personal names, or Canva edit URL committed to public GitHub.
+
+
+## New independent 10-slide editable design (2026-11-16)
+- User explicitly requested a **new** editable Canva project that combines visual references for Slides 1–5 and 6–10. This overrides the earlier single-master continuation requirement for this particular deliverable. Existing canonical master was not altered.
+- Rebuilt 10 slides on a consistent 20 × 11.25 inch 16:9 canvas with native-editable shapes, text, tables and directed connector arrowheads; only a separate decorative architecture photo is raster.
+- Matched the selected wine/cream UI/UX, rounded cards, chapter markers, literature highlight and bottom navigation without the unused `目錄` item.
+- Kept authoritative first-batch content and research-specific literature content, correcting misinformation in AI-generated image mockups rather than copying invented references, formulas or method claims.
+- QA: local PDF rendered 10 pages, zero off-slide elements, 12 native arrowheads. New Canva project import confirmed **exactly 10 pages** with independent editable rich text for all ten slides. Rendered source and reproducible build script retained privately.
+- Canva user-visible design title: "成大資管碩士論文計畫口試｜選定酒紅米白視覺｜第 1–10 頁（可編輯）"; private edit link and source-derived PPTX not committed in this public repo.
+- This is a high-fidelity editable reconstruction, **not pixel-identical** to the uploaded raster references, since pixel-level accuracy conflicts with rebuilding independent editable components and correcting scientific inaccuracies.
 
 ## Current boundaries
 - **The revised canonical Canva master has 31 editable draft slides (28 main + 3 appendix).** This is NOT the final approved presentation. Old arrow-bearing slides still require live review; actual Canva→PowerPoint fidelity cannot be verified without the exported PPTX.
