@@ -44,6 +44,9 @@
 | 2026-11-16 | Remove unused 目錄 from footer; keep five chapter items starting with 緒論; ensure second slide is agenda and third is research background | user correction to slide navigation and page semantics | adopted on Slides 1–5; rest remains pending |
 | 2026-11-16 | Use thesis-grounded M+M×m parameter coordinate count instead of inaccurate generated math in source image | preserve scientific correctness when moving from preview to editable deck | adopted |
 
+| 2026-11-16 | Create a new, independent **10-slide** Canva project using the user's two chosen raster images as the style/structural reference and reconstruct slides as real editable objects | explicit request to merge chosen images into a separate editable design | adopted; 10-page project verified |
+| 2026-11-16 | Prioritize scientific and source fidelity over copying hallucinated slide-image text, formula or citations; allow minor pixel differences for true editability | chosen AI-generated images contain inaccurate or altered math, citations and method lists | adopted |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
