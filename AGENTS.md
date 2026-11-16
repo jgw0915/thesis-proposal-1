@@ -65,3 +65,8 @@ Repository was public at setup. Do not push raw lab member slides, internal docu
 - Finish the main presentation with **Thank You/Q&A**, followed by optional *technical Appendix* slides (never before Thank You).
 - Canonical ending is Slides 26 experiment, 27 contributions, 28 Thank You, 29–31 Appendix A–C. See `docs/PROPOSAL_ENDING_AND_APPENDIX.md`.
 - Update global footer label `參考文獻` to `附錄` once Canva edit is previewed and explicitly approved; never claim earlier manually edited pages were changed until verified.
+
+## User-approved slide UI/UX, latest 2026-11-16
+- Follow `docs/APPROVED_WINE_CREAM_UI_V2.md` for all further visual upgrades: modern rounded white cards, serif burgundy titles, warm cream/tan, subtle academic decoration, and native-editable charts/figures/text.
+- Slides 1–5 have been reconstructed and installed in the same canonical Canva deck; backup of originals exists. Do not confuse the conceptual flat reference image with Canva's native elements.
+- Footer chapter navigation excludes **目錄** and reads **緒論／文獻探討／研究方法／實驗規劃／附錄**; slides that were not yet redesigned may still show old labels.
