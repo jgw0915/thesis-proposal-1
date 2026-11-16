@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（一頁實驗規劃＋Thank You＋附錄 A–C 已重整）
+**Last updated:** 2026-11-16（封面第 1 頁重新設計與 Canva 主簡報替換完成）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -82,6 +82,15 @@
 - Preserved private equation TeX in working notes for final native PowerPoint conversion; no equation source or private slide file committed publicly.
 - **Open visual inconsistency:** earlier Slides 1–25 still show old footer label `參考文獻` although new Slides 26–31 use `附錄`. Requires a separate Canva editing transaction, preview and user approval before commit.
 - Added `docs/PROPOSAL_ENDING_AND_APPENDIX.md`; the old 30-slide outline with 3 experiment slides and one reference page is superseded.
+
+## Cover redesign completed — current proposal cover (2026-11-16)
+- Inspected the actual user-uploaded official proposal cover PDF and current Canva cover layout; used the PDF, not guessed committee/scheduling data, as the authoritative source.
+- Rebuilt **only Slide 1** in the existing off-white/wine/tan visual system, introducing clearly readable fields for the complete three-member examination committee, student, adviser, proposal date/time and room.
+- Produced a native-editable one-slide PowerPoint and rendered it to PDF/PNG for alignment and boundary QA; no off-slide elements.
+- Backed up the former Canva cover as a separate single-slide design before replacement.
+- Imported the new cover as an intermediate Canva design and replaced **page 1 only** in the same canonical Canva master. Verified the master still has **31 pages** and that Slide 2 contents, Thank You, and last appendix page remain present.
+- Checked editable Canva rich text for cover fields. All factual names and schedule details were intentionally kept out of this public status document; user-provided original PDF is not published.
+- Pending final export QA: check Canva→PowerPoint appearance, typography and native equations once the user provides the exported presentation.
 
 ## Current boundaries
 - **The revised canonical Canva master has 31 editable draft slides (28 main + 3 appendix).** This is NOT the final approved presentation. Old arrow-bearing slides still require live review; actual Canva→PowerPoint fidelity cannot be verified without the exported PPTX.
