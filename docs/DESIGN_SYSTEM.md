@@ -76,3 +76,9 @@ Use these as **starting specifications**; adjust with rendered preview based on 
 - Use a single native connector with real endpoint arrowheads per directed edge, not a line plus a detached chevron.
 - Arrow endpoints align with source/target card edges; use straight/orthogonal routing and consistent gaps. Never cross content or misrepresent fit/search/test or convergence.
 - Maintain an arrow source→target audit table and check rendered PPTX and Canva imports. See `docs/ARROW_CONNECTOR_QA.md`.
+
+## Latest selected UI/UX direction (2026-11-16, supersedes outdated visual choices)
+- User chose polished academic wine/cream infographics: warm off-white, burgundy and tan, native editable rounded cards, restrained shadows, large readable headers, minimalist scientific diagrams.
+- Use `docs/APPROVED_WINE_CREAM_UI_V2.md` as preferred visual style reference. Its palette `#FCFAF7`, `#8F1931`, `#731427`, `#9C794C` takes precedence for new design builds.
+- For new/rebuilt slides, **remove 目錄 from bottom global navigation**: `緒論 | 文獻探討 | 研究方法 | 實驗規劃 | 附錄`. Cover and TOC do not need footer navigation.
+- First five slides have editable implementation; do **not** assume older slides 6 onward have been restyled. Visually audit each replacement and safeguard existing manual edits.
