@@ -40,6 +40,10 @@
 | 2026-11-16 | Create a separate backup of former Slides 26–30 before replacing the closing, and preserve Slides 1–25 | avoid losing user-edited work | adopted |
 | 2026-11-16 | Change navigation's final label from References to Appendix, pending previewed Canva edit approval for old Slides 1–25 | keep nav consistent without overwriting manually edited pages | new pages updated; old nav remains pending |
 
+| 2026-11-16 | Adopt selected wine/cream card-driven infographic UI/UX; rebuild Slides 1–5 as real editable Canva elements through native PPTX import and replace in canonical master | user's chosen image reference and explicit replacement request | adopted; backup and 30-page master verified |
+| 2026-11-16 | Remove unused 目錄 from footer; keep five chapter items starting with 緒論; ensure second slide is agenda and third is research background | user correction to slide navigation and page semantics | adopted on Slides 1–5; rest remains pending |
+| 2026-11-16 | Use thesis-grounded M+M×m parameter coordinate count instead of inaccurate generated math in source image | preserve scientific correctness when moving from preview to editable deck | adopted |
+
 ## Pending confirmation (not blockers to drafting)
 - Final list of experimental datasets and fixed hyperparameters.
 - Confirm actual font fidelity in the online editor and final PowerPoint projector environment.
