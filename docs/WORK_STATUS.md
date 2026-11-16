@@ -1,6 +1,6 @@
 # Current production status
 
-**Last updated:** 2026-11-16（封面第 1 頁重新設計與 Canva 主簡報替換完成）
+**Last updated:** 2026-11-16（使用者選定新版 UI/UX，第 1–5 頁已在 Canva 以可編輯物件替換）
 
 ## Completed in this session
 - Re-read the slide repository instructions and the latest accessible official thesis metadata and method sources.
@@ -92,6 +92,17 @@
 - Checked editable Canva rich text for cover fields. All factual names and schedule details were intentionally kept out of this public status document; user-provided original PDF is not published.
 - Pending final export QA: check Canva→PowerPoint appearance, typography and native equations once the user provides the exported presentation.
 
+## User-selected visual redesign installed — Slides 1–5 (2026-11-16)
+- Inspected user's uploaded reference image, current first five Canva rich-text pages, authoritative cover PDF, and the actual thesis title metadata.
+- Reconstructed the chosen burgundy/cream UI/UX in a five-slide **native-editable 20×11.25-inch PPTX**. Tables, cards, arrows, abstract illustration and 123 text-bearing objects are editable. Only the faded cover campus image remains a separate decorative image (not a flattened page).
+- Slide 2 is the five-section agenda; Slide 3 is document/DNA count-feature research background; Slide 4 preserves **M+M×m** coordinate count (50,010 vs 1,010) rather than a scientifically incorrect formula from illustrative generated artwork; Slide 5 preserves three research objectives.
+- Slides 3–5 now use footer **緒論／文獻探討／研究方法／實驗規劃／附錄**, with no unused `目錄` entry.
+- Rendered five-page PDF/PNG and manually inspected typography, flow direction and content; all shapes remain inside the canvas.
+- Backed up the user's original Canva Slides 1–5 as a separate five-page design, imported the revised editable batch, inserted five new pages in order and deleted only the shifted original five.
+- Verified Canva's editable rich-text extraction on all replaced slides and that original Slide 6 (ensemble-learning overview) remained in position. Canonical Canva master **currently reports 30 pages**—preserve this current state; earlier progress logs cited 31, likely due independent user changes.
+- **Do not claim Slides 6–30 have the new visual style yet.** They retain their previous visuals and should be reviewed only when asked.
+- New public-safe style specification: `docs/APPROVED_WINE_CREAM_UI_V2.md`. No private thesis text, slide binary, personal names, or Canva edit URL committed to public GitHub.
+
 ## Current boundaries
 - **The revised canonical Canva master has 31 editable draft slides (28 main + 3 appendix).** This is NOT the final approved presentation. Old arrow-bearing slides still require live review; actual Canva→PowerPoint fidelity cannot be verified without the exported PPTX.
 - A previously generated 30-slide Canva deck is not the approved visual baseline; this session begins a redesign.
@@ -100,10 +111,11 @@
 - A source discrepancy concerning the final ensemble-selection rule was observed; verify before the later method slides rather than guessing.
 
 ## Next action
-- Obtain user feedback on the revised conclusion and appendices; adjust only specified pages, preserving manual edits.
-- Change stale footer text `參考文獻` to `附錄` on Slides 1–25 in a previewed Canva transaction with explicit approval before saving.
-- Previously arrow-redesigned Slides 6, 7, 8, 11, 12, 14, 15 still need approved replacements or correction on final exported PPTX.
-- Once the user exports Canva to PPTX, verify real arrow geometry and layout; convert the approved formulas into native PowerPoint Office Math.
+- Review the user-approved Slides 1–5 in the **existing Canva master** and apply any requested small fixes.
+- If asked to propagate the selected UI/UX to Slides 6 onward, proceed in reviewed batches, preserving user's edits and retaining scientific content.
+- Older Slides 6 onward still contain `目錄` and sometimes `參考文獻` in the footer. Correct these when editing those pages; do not claim all have been fixed.
+- The master presently reports **30 pages** although some earlier logs expected 31. Before final export, audit actual slide order, displayed page numbers and any missing contribution/appendix slide.
+- Actual Canva→PowerPoint export fidelity and native Office Math conversion remain finalization tasks.
 
 ## Before uploading thesis-specific deliverables
 Change this repository to private, or explicitly authorize publication of each selected artifact. Re-check that no senior presentation, private source files, unpublished sensitive materials or access tokens enter a public commit.
